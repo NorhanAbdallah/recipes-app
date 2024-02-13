@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'https://62973a6114e756fe3b2b5ea8.mockapi.io/api/v1',
+    baseURL: 'https://api.spoonacular.com',
     withCredentials: false,
 });
 
