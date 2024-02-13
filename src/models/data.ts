@@ -1,3 +1,1 @@
-export interface Data {
-
-}
+export interface Data {}

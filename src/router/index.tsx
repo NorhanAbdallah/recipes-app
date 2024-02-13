@@ -1,9 +1,10 @@
 import React from 'react';
 
+import { Box } from '@mui/material';
 import { RouteObject, useRoutes } from 'react-router';
+
 import { Paths } from './paths';
 import Landing from '../view';
-import { Box } from '@mui/material';
 
 export default function Routes() {
     const routes: RouteObject[] = [
@@ -12,6 +13,8 @@ export default function Routes() {
             element: <Landing />,
         },
     ];
+
     const pages = useRoutes(routes);
+
     return <Box>{pages}</Box>;
 }
