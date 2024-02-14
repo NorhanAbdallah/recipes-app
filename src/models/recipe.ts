@@ -27,5 +27,5 @@ export interface RecipeDetails {
     image?: string;
     dishTypes?: Array<string>;
     analyzedInstructions?: Array<recipeInstructions>;
-    extendedIngredients: Array<recipeIngredient>;
+    extendedIngredients?: Array<recipeIngredient>;
 }

@@ -13,12 +13,11 @@ import { RecipeDetails } from '../../../models/recipe';
 import { Typography } from '@mui/material';
 import CookingInfoItem from './components/cooking-info-item';
 import BasicChips from '../../../shared/components/chip';
-import { mockedRecipe } from './const';
 
 const RecipeProfile = () => {
     const { recipeId } = useParams();
     const [recipeDetails, setRecipeDetails] =
-        useState<RecipeDetails>(mockedRecipe);
+        useState<RecipeDetails>({});
 
     const handleGetRecipeDetails = useCallback(() => {
         if (!recipeId) {
@@ -34,7 +33,7 @@ const RecipeProfile = () => {
     return (
         <Box sx={contentWrapperStyles}>
             <Box sx={profileWrapperStyles}>
-                
+
                 <Box>
                     <Typography variant="h3">{recipeDetails.title}</Typography>
                     <Box sx={sectionWrapperStyles}>
