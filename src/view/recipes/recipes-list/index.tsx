@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import React, { useState, useEffect, useCallback } from 'react';
 import useDebounce from '../../../shared/hooks/useDebounce';
-import { searchRecipes } from '../../../apis';
+import { searchRecipes } from '../../../apis/recipes';
 import {
     listWrapperStyles,
     progressStyles,
