@@ -9,6 +9,7 @@ export const profileWrapperStyles: SxProps = {
     flexDirection: 'column',
     alignItems: 'center',
     paddingY: '3rem',
+    minHeight: '100vh',
 };
 
 export const contentWrapperStyles: SxProps = {
@@ -31,5 +32,5 @@ export const recipeInfoSectionStyles: SxProps = {
     display: 'flex',
     width: '100%',
     justifyContent: 'space-evenly',
-    marginTop: '1rem',
+    marginTop: '3rem',
 };
