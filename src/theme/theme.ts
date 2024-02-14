@@ -6,6 +6,7 @@ export const lightTheme = createTheme({
         fontSize: 14,
         allVariants: {
             fontFamily: 'cursive',
+            color: '#ebebeb',
         },
     },
 });
