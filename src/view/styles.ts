@@ -1,5 +1,5 @@
 import { SxProps } from '@mui/material';
-import img from '../assets/images/crop-plate-with-salad.jpg';
+import img from '../assets/crop-plate-with-salad.jpg';
 
 export const headerImgStyles: SxProps = {
     backgroundImage: `url(${img})`,
