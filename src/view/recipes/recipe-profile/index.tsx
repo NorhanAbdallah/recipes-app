@@ -16,7 +16,7 @@ import BasicChips from '../../../shared/components/chip';
 
 const RecipeProfile = () => {
     const { recipeId } = useParams();
-    const [recipeDetails, setRecipeDetails] = useState<RecipeDetails>({});
+    const [recipeDetails, setRecipeDetails] = useState<RecipeDetails>();
 
     const handleGetRecipeDetails = useCallback(() => {
         if (!recipeId) {
