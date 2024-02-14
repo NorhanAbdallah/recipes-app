@@ -7,11 +7,9 @@ export const headerImgStyles: SxProps = {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     position: 'relative',
-    height: '70vh',
+    height: '50vh',
     display: 'flex',
     alignItems: 'center',
-    borderBottomLeftRadius: '2rem',
-    borderBottomRightRadius: '2rem',
 };
 
 export const headerTitleStyle: SxProps = {

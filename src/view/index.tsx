@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Input from '../shared/components/input-field';
-import RecipesList from './recipes-list';
+import RecipesList from './recipes/recipes-list';
 import Box from '@mui/material/Box';
 import {
     headerImgStyles,
@@ -22,7 +22,7 @@ export default function Landing() {
                     <Input
                         handleChange={setSearchValue}
                         value={searchValue}
-                        placeholder="Search recipe"
+                        placeholder="Search recipes"
                         type="search"
                     />
                 </Box>

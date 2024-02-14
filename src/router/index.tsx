@@ -5,6 +5,7 @@ import { RouteObject, useRoutes } from 'react-router';
 
 import { Paths } from './paths';
 import Landing from '../view';
+import RecipeProfile from '../view/recipes/recipe-profile';
 
 export default function Routes() {
     const routes: RouteObject[] = [
@@ -12,6 +13,7 @@ export default function Routes() {
             path: Paths.HOME,
             element: <Landing />,
         },
+        { path: Paths.PROFILE, element: <RecipeProfile /> },
     ];
 
     const pages = useRoutes(routes);
