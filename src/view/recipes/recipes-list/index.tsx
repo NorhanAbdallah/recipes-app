@@ -38,7 +38,7 @@ const RecipesList: React.FC<ListProps> = ({ searchTerm }) => {
     }, [debouncedSearchTerm]);
 
     useEffect(() => {
-        if (debouncedSearchTerm) fetchRecipes();
+        fetchRecipes();
     }, [debouncedSearchTerm]);
 
     if (loading) {
